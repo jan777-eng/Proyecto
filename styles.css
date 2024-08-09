@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lucida Handwriting', cursive, Arial, sans-serif; /* Tipografía más femenina */
+    background-color: #ff1493; /* Imagen de fondo más suave */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.container {
+    background-color: rgba(255, 192, 203, 0.8); /* Fondo rosado suave */
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ff69b4; /* Color rosa brillante */
+    font-family: 'Lucida Calligraphy', cursive; /* Tipografía decorativa */
+}
+
+#datetime {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff1493; /* Rosa intenso */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #ff69b4; /* Rosa brillante */
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 2px solid #ffb6c1; /* Bordes rosados suaves */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #fff0f5; /* Fondo rosado claro */
+}
+
+button {
+    padding: 10px;
+    background-color: #ff69b4; /* Botones rosas */
+    border: none;
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff1493; /* Color rosa más intenso al pasar el cursor */
+}
+
+#dataDisplay {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffc0cb; /* Fondo rosado para los elementos de la lista */
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex;
+    justify-content: space-between;
+}
+
+button.delete {
+    background-color: #ff69b4; /* Botón de borrar rosado */
+    color: white;
+    border: none;
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer;
+}
+
+button.delete:hover {
+    background-color: #ff1493; /* Color rosa más intenso al pasar el cursor */
+}
