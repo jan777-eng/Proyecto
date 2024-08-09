@@ -7,14 +7,16 @@ document.addEventListener('DOMContentLoaded', function () {
  
 
     // Guardar datos
-    dataForm.addEventListener('submit', function (event) {
+     dataForm.addEventListener('submit', function (event) {
         event.preventDefault();
         const name = document.getElementById('name').value;
         const lastname = document.getElementById('lastname').value;
         const email = document.getElementById('email').value;
+        const maritalStatus = document.getElementById('maritalStatus').value;
+        const color = document.getElementById('Color').value;
 
-        if (name && email) {
-            addDataToList(name, email);
+        if (name && lastname && email && maritalStatus && color) {
+            addDataToList(name, lastname, email, maritalStatus, color);
             dataForm.reset();
         }
     });
