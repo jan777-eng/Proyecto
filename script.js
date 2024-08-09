@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Agregar datos a la lista
-    function addDataToList(name, email) {
+    function addDataToList(name, lastname, email, maritalStatus, color) {
         const li = document.createElement('li');
-        li.innerHTML = `${name} - ${email} <button class="delete">Eliminar</button>`;
+        li.innerHTML = `${name} ${lastname} - ${email} - Estado Civil: ${maritalStatus} - Color Favorito: ${color} <button class="delete">Eliminar</button>`;
         dataList.appendChild(li);
 
         // Eliminar datos
