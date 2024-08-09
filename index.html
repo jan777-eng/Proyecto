@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poder Femenino</title>
+     <script src="https://www.google.com/recaptcha/api.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -42,6 +43,14 @@
                 <option value="gris">Gris/a</option>
             </select>
 
+             <script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
+            <button class="g-recaptcha"  data-sitekey="6LeOACMqAAAAACZ2IXM0DBPq_QiKzR_ARKv8WO4q" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>
             <button type="submit">Guardar</button>
         </form>
 
